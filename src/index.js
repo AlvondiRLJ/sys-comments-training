@@ -5,5 +5,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 import base from './base'
 
-ReactDOM.render(<App base={base} />, document.getElementById('root'));
+ReactDOM.render(
+    <App base={base} />, 
+    document.getElementById('root'));
 registerServiceWorker()
